@@ -1,0 +1,19 @@
+{
+    "name": "vsonx/hello-world",
+    "description": "Simple hello world class",
+    "authors": [
+        {
+            "name": "Vilson Duka",
+            "email": "vilsondev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload" :{
+        "prs-0":
+                {
+                    "HelloPrinter":"src/"
+                }
+    }
+}
